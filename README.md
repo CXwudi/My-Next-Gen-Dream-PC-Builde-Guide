@@ -55,11 +55,17 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    2. turn off the power supply
    3. connect it
    4. connect myself with a anti-static strap to the power supply
-2. Take out the MoBo and put it on top of the MoBo box
+2. Carefully take out the MoBo and put it on top of the MoBo box
    - reason: box provide anti-static work surface
+   - also, when taking out, not touching any component on top and back, for example:
+![taking out Mobo](./Screenshot%202021-08-15%20180651.png)
+![place on box](./Screenshot%202021-08-15%20180812.png)
 3. Install CPU
    - lift up the MoBo lever
-   - carefully take out the CPU from the box, and place it on MoBo
+   - hold the CPU on the side
+![hold CPU](./Screenshot%202021-08-15%20181129.png)
+![CPU to Mobo](Screenshot%202021-08-15%20181225.png)
+   - gentally place it on MoBo
    - watch out the arrow, arrow line up
    - no big forces, don't scruw up the CPU's pins, lift down the lever
 4. Install RAMs
@@ -67,7 +73,9 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - RAMs on first and third slots starting from outside
    - RAM is successfully installed when you hear "click" on both sides of the RAM
 5. Install SSDs
-   - remove heat spreader, if it has one
+   - remove MoBo heat spreader, if it has one
+   - watch out if the MoBo heat spreader has a cover like in the image
+![sample heat spreader cover](./Screenshot%202021-08-15%20181707.png)
    - check my SSD length, install the female screw.
    - put the SSD
    - install the child screw on the mother screw 
@@ -88,19 +96,20 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - validate means IO shield fit the Mobo, fit the case, and shield doesn't block any port
 7. Carefully put on the MoBo, and install it
    - 10% - 15% angle goes in
-   - must be really be careful of not letting the PC case scretches the MoBo
-8. Install AIO Cooler
+   - must be really careful of not letting the PC case scretches the MoBo
+8. (Skip if AIO Cooler comes with a build-in thermal paste) Add liquid metal to CPU
+9. Install AIO Cooler
    - front mount
-   - make sure toppest point is not the pump
-9. Lay up the PC case
-10. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
-11. Do cable mid-management
+   - make sure the most top point is not the pump
+10. Lay up the PC case
+11. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
+12. Do cable mid-management
     - plug in all cables on the MoBo side
-12. Remove the PSU cover, unpack anti-static protection, and install PSU
-13. Do cable post-management
+13. Remove the PSU cover, unpack anti-static protection, and install PSU
+14. Do cable post-management
     - connect all cables on the PSU
-14. Install GPU and connect its wires
-15. Install GPU supporter
+15. Install GPU and connect its wires
+16. Install GPU supporter
 
 ## Phase - after build
 
