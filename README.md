@@ -55,7 +55,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    2. turn off the power supply
    3. connect it
    4. connect myself with a anti-static strap to the power supply
-2. Take out the MoBo and put it on top of the MB box
+2. Take out the MoBo and put it on top of the MoBo box
    - reason: box provide anti-static work surface
 3. Install CPU
    - lift up the MoBo lever
@@ -76,28 +76,31 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 ### with PC case
 
 1. Take out the PC case
-2. But put both side panels back to the box
+2. But put front, left side, right side panels back to the box
    - make sure put the bubble material between two panels to avoid scretching
 3. Do cable pre-management
    - in the case, which cable go to where, so that when the MoBo is installed, all cables are standby
    - including cables from AIO cooler
    - this should be well designed during the before build phase
-4. Lay down the PC case
-5. Validate and install the IO shield
+4. Install all fans (excluding AIO Cooler fans)
+5. Lay down the PC case
+6. Validate and install the IO shield
    - validate means IO shield fit the Mobo, fit the case, and shield doesn't block any port
-6. Carefully put on the MoBo, and install it
+7. Carefully put on the MoBo, and install it
    - 10% - 15% angle goes in
    - must be really be careful of not letting the PC case scretches the MoBo
-7. Install AIO Cooler
+8. Install AIO Cooler
    - front mount
    - make sure toppest point is not the pump
-8. Lay up the PC case
-9. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
-10. Plug in all cables
-11. Remove the PSU cover, unpack anti-static protection, and install PSU
-12. Connect all wires on the PSU
-13. Install GPU and connect its wires
-14. Install GPU supporter
+9. Lay up the PC case
+10. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
+11. Do cable mid-management
+    - plug in all cables on the MoBo side
+12. Remove the PSU cover, unpack anti-static protection, and install PSU
+13. Do cable post-management
+    - connect all cables on the PSU
+14. Install GPU and connect its wires
+15. Install GPU supporter
 
 ## Phase - after build
 
@@ -106,25 +109,52 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 1. Upgrade MoBo driver to support 5950x CPU
    - by inserting the USB to the MoBo
 2. Boots up, immediately go to BOIS settings
-3. In BIOS page, check all status.
+3. In BIOS page, check all status
+   - CPU
+   - GPU
+   - RAMs: make sure to enable XMP
+   - SSDs: make sure to enable Fast Boot in the Boot section
+   - temperature
+   - noise
 4. If anything is shown wrong in BIOS, debug and fix it before progressing to the next step.
-5. 
+5. Install back the front, two side panels, check noise again
 
 ### Windows/Drivers install
 
+prerequiste: MoBo setting is correct, all hardware works properly
+
+1. From BIOS, boot from the Win10 installation USB
+2. Install Windows 10, login my microsoft account
+3. Perform our own Win10 setting customization based on OneNote
+   - no need to start installing app now, just changing win10 setting
+4. put in the MoBo CD to install some drivers
+5. At this stage, the PC is in usable status
+6. Install chocolaty and properly config it as it is needed for the nest step
+
 ### Unit tests && Integration tests
 
-run:
+prerequiste: the PC is in usable status
 
-- Cinebench r20
-- FurMark
+1. Run followings to check CPU and GPU are in good performance:
+   - Cinebench r20
+   - FurMark
+2. Check followings to see all system spec are correct, including RAMs
+   - CPUz
+   - GPUz
+3. Run CrstalDiskInfo to check both SSDs speed meet expectation
+4. Play 30 minutes of Apex Legends with MSI Afterburner to check if normal game play is fine
+   - this also check long time heavy load
+   - observe if any abnormal high temperature or FPS drop happens
+5. Stream 30 minutes of Apex Legends with MSI Afterburner and OBS to see if multi-tasking works well
+   - should not expect a massive FPS drop compared to not streaming
+6. Install Graalvm and Intellij (using JetBrain Toolbox), publish my `kotlin-jvm-idiomatic-exec` libaray
+   - config the Intellij first, by setting sync
+   - should open 3 intellij each with `-Xmx6000`, and CPU and RAMs are no problems with it
+   - should expect a great developing experience
 
-to make sure CPU and GPU are in good performance
+### Anything left?
 
-check:
+prerequiste: all checks are done, PC is in production state
 
-- CPUz
-- GPUz
-
-to see all system spec are correct, including RAMs
-
+1. Just like how we setup Surface Book 2, setup everythings else based on notes in OneNote
+2. Enjoy!
