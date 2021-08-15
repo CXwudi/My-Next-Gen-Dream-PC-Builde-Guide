@@ -80,6 +80,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - make sure put the bubble material between two panels to avoid scretching
 3. Do cable pre-management
    - in the case, which cable go to where, so that when the MoBo is installed, all cables are standby
+   - including cables from AIO cooler
    - this should be well designed during the before build phase
 4. Lay down the PC case
 5. Validate and install the IO shield
@@ -87,5 +88,43 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 6. Carefully put on the MoBo, and install it
    - 10% - 15% angle goes in
    - must be really be careful of not letting the PC case scretches the MoBo
-7. Lay up the PC case
-8. 
+7. Install AIO Cooler
+   - front mount
+   - make sure toppest point is not the pump
+8. Lay up the PC case
+9. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
+10. Plug in all cables
+11. Remove the PSU cover, unpack anti-static protection, and install PSU
+12. Connect all wires on the PSU
+13. Install GPU and connect its wires
+14. Install GPU supporter
+
+## Phase - after build
+
+### MoBo settings
+
+1. Upgrade MoBo driver to support 5950x CPU
+   - by inserting the USB to the MoBo
+2. Boots up, immediately go to BOIS settings
+3. In BIOS page, check all status.
+4. If anything is shown wrong in BIOS, debug and fix it before progressing to the next step.
+5. 
+
+### Windows/Drivers install
+
+### Unit tests && Integration tests
+
+run:
+
+- Cinebench r20
+- FurMark
+
+to make sure CPU and GPU are in good performance
+
+check:
+
+- CPUz
+- GPUz
+
+to see all system spec are correct, including RAMs
+
