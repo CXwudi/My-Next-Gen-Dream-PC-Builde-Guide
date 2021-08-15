@@ -43,8 +43,8 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 
 1. Clean the table, get all tools standby
 2. surface book 2 standby, with all tutorial videos opened
-3. Open Streaming  
-4. Recording yourself the introduction used for the vlog
+3. Recording yourself the introduction used for the vlog
+4. Open Streaming
 
 ## Phase - during build
 
@@ -65,9 +65,9 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 4. Install RAMs
    - watch out the orientation, by looking at slots
    - RAMs on first and third slots starting from outside
-   - RAM is installed when you hear "click" on both sides of the RAM
+   - RAM is successfully installed when you hear "click" on both sides of the RAM
 5. Install SSDs
-   - remove heat spreader, if has one
+   - remove heat spreader, if it has one
    - check my SSD length, install the female screw.
    - put the SSD
    - install the child screw on the mother screw 
@@ -77,6 +77,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 
 1. Take out the PC case
 2. But put both side panels back to the box
+   - make sure put the bubble material between two panels to avoid scretching
 3. Do cable pre-management
    - in the case, which cable go to where, so that when the MoBo is installed, all cables are standby
    - this should be well designed during the before build phase
