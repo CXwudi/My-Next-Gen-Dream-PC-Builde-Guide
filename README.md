@@ -90,18 +90,19 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - in the case, which cable go to where, so that when the MoBo is installed, all cables are standby
    - including cables from AIO cooler
    - this should be well designed during the before build phase
-4. Install all fans (excluding AIO Cooler fans)
-5. Lay down the PC case
-6. Validate and install the IO shield
+4. Lay down the PC case
+5. Validate and install the IO shield
    - validate means IO shield fit the Mobo, fit the case, and shield doesn't block any port
-7. Carefully put on the MoBo, and install it
+6. Carefully put on the MoBo, and install it
    - 10% - 15% angle goes in
    - must be really careful of not letting the PC case scretches the MoBo
+7. Lay up the PC case
 8. (Skip if AIO Cooler comes with a build-in thermal paste) Add liquid metal to CPU
 9. Install AIO Cooler
+   - must make sure not touching the thermal paste
    - front mount
    - make sure the most top point is not the pump
-10. Lay up the PC case
+10. Install all fans (excluding AIO Cooler fans)
 11. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
 12. Do cable mid-management
     - plug in all cables on the MoBo side
