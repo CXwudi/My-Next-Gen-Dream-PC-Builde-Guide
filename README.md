@@ -127,10 +127,10 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
     - 24 pin MoBo cable
     - EPS (CPU) cable (both cable)
 ![front panel pins](Screenshot%202021-08-16%20180348.png)
-1.  Install GPU and connect its wires
+14.  Install GPU and connect its wires
     - when connecting the PCIe cables, don't use these pigtails. Instead, use all 3 PCIe cables and leave these pigtails alone
-2.  Install GPU supporter
-3.  Install MoBo WiFi
+15.  Install GPU supporter
+16.  Install MoBo WiFi
 
 ## Phase - after build
 
