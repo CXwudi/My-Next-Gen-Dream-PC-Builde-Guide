@@ -103,16 +103,26 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - must make sure not touching the thermal paste
    - front mount
    - make sure the most top point is not the pump
+   - not the cable part yet
 10. Install all fans (excluding AIO Cooler fans)
 11. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
-12. Do cable mid-management
+12. Remove the PSU cover, unpack anti-static protection, and install PSU
+    - make sure fans is facing downside so that fans can poll fresh air to PSU
+13. Do cable post-management
+    - 24 pin MoBo cable
+    - CPU cable
     - plug in all cables on the MoBo side
-13. Remove the PSU cover, unpack anti-static protection, and install PSU
-14. Do cable post-management
-    - connect all cables on the PSU
-15. Install GPU and connect its wires
-    - when connecting the PCIe cables, don't use th pigtails. Instead, use all 3 PCIe cables and leave these pigtails alone
-16. Install GPU supporter
+      - usb 3.0, use 2.0
+      - audios
+      - usb c
+    - AIO Cooler pump
+      - AIO pump header (thin one)
+      - commander header (thick one)
+    - AIO Cooler commander
+      - 
+14. Install GPU and connect its wires
+    - when connecting the PCIe cables, don't use these pigtails. Instead, use all 3 PCIe cables and leave these pigtails alone
+15. Install GPU supporter
 
 ## Phase - after build
 
