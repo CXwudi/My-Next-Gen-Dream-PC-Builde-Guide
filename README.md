@@ -88,9 +88,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 2. But put front, left side, right side panels back to the box
    - make sure put the bubble material between two panels to avoid scretching
 3. Do cable pre-management
-   - in the case, which cable go to where, so that when the MoBo is installed, all cables are standby
-   - including cables from AIO cooler
-   - this should be well designed during the before build phase
+   - only for cables from the case, which cable go to where, so that when the MoBo is installed, all cables are standby
 4. Lay down the PC case
 5. Validate and install the IO shield
    - validate means IO shield fit the Mobo, fit the case, and shield doesn't block any port
@@ -104,25 +102,35 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - front mount
    - make sure the most top point is not the pump
    - not the cable part yet
-10. Install all fans (excluding AIO Cooler fans)
+10. Install all fans
 11. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
 12. Remove the PSU cover, unpack anti-static protection, and install PSU
     - make sure fans is facing downside so that fans can poll fresh air to PSU
-13. Do cable post-management
-    - 24 pin MoBo cable
-    - CPU cable
+13. Plug in and do cable post-management
+    - All cable management should be done just-in-time
     - plug in all cables on the MoBo side
       - usb 3.0, use 2.0
       - audios
       - usb c
+    - AIO Cooler fans
+      - goes to the AIO commander
     - AIO Cooler pump
-      - AIO pump header (thin one)
-      - commander header (thick one)
+      - thin one goes to AIO pump/CPU fan header
+      - thick one goes to commander header
     - AIO Cooler commander
-      - 
-14. Install GPU and connect its wires
+      - usb one goes to usb header in MoBo
+      - thicker one goes to Sata female cable from PSU then Sata female cable goes to PSU
+    - Other fans
+      - goes to the fan hub integrated in the MoBo
+    - Front Panel cables
+      - follow the [video](https://youtu.be/PXaLc9AYIcg?t=2978) or the screenshot below
+    - 24 pin MoBo cable
+    - EPS (CPU) cable (both cable)
+![front panel pins](Screenshot%202021-08-16%20180348.png)
+1.  Install GPU and connect its wires
     - when connecting the PCIe cables, don't use these pigtails. Instead, use all 3 PCIe cables and leave these pigtails alone
-15. Install GPU supporter
+2.  Install GPU supporter
+3.  Install MoBo WiFi
 
 ## Phase - after build
 
@@ -130,20 +138,22 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 
 1. Upgrade MoBo driver to support 5950x CPU
    - by inserting the USB to the MoBo
-2. Boots up, immediately go to BOIS settings
-3. In BIOS page, check all status
+2. Connect HDMI on GPU, mouse and keyboard
+   - not the DisplayPort since NVIDIA driver hasn't installed yet
+3. Boots up, immediately go to BOIS settings
+4. In BIOS page, check all status
    - CPU
    - GPU
    - RAMs: make sure to enable XMP
    - SSDs: make sure to enable Fast Boot in the Boot section
    - temperature
    - noise
-4. If anything is shown wrong in BIOS, debug and fix it before progressing to the next step.
-5. Install back the front, two side panels, check noise again
+5. If anything is shown wrong in BIOS, debug and fix it before progressing to the next step.
+6. Install back the front, two side panels, check noise again
 
 ### Windows/Drivers install
 
-prerequiste: MoBo setting is correct, all hardware works properly
+prerequisite: MoBo setting is correct, all hardware works properly
 
 1. From BIOS, boot from the Win10 installation USB
 2. Install Windows 10, login my microsoft account
@@ -151,11 +161,11 @@ prerequiste: MoBo setting is correct, all hardware works properly
    - no need to start installing app now, just changing win10 setting
 4. put in the MoBo CD to install some drivers
 5. At this stage, the PC is in usable status
-6. Install chocolaty and properly config it as it is needed for the nest step
+6. Install chocolaty and [properly config it](https://stackoverflow.com/a/45019227/8529009) as it is needed for the next step
 
 ### Unit tests && Integration tests
 
-prerequiste: the PC is in usable status
+prerequisite: the PC is in usable status
 
 1. Run followings to check CPU and GPU are in good performance:
    - Cinebench r20
@@ -169,14 +179,13 @@ prerequiste: the PC is in usable status
    - observe if any abnormal high temperature or FPS drop happens
 5. Stream 30 minutes of Apex Legends with MSI Afterburner and OBS to see if multi-tasking works well
    - should not expect a massive FPS drop compared to not streaming
-6. Install Graalvm and Intellij (using JetBrain Toolbox), publish my `kotlin-jvm-idiomatic-exec` libaray
-   - config the Intellij first, by setting sync
-   - should open 3 intellij each with `-Xmx6000`, and CPU and RAMs are no problems with it
-   - should expect a great developing experience
+6. Install Graalvm and Intellij (using JetBrain Toolbox), do some development on my personal project [`vocadb-video-downloader-new`](https://github.com/CXwudi/vocadb-video-downloader-new)
+   - should run smoother
 
 ### Anything left?
 
-prerequiste: all checks are done, PC is in production state
+prerequisite: all checks are done, PC is in production state
 
 1. Just like how we setup Surface Book 2, setup everythings else based on notes in OneNote
 2. Enjoy!
+3. Watch out all faulty components. If anything happened, goes for RMA
