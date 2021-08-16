@@ -1,6 +1,7 @@
 # My Next-Gen Dream PC Build Guide
 
 This is the detailed build guide for [my next-gen dream PC build](https://ca.pcpartpicker.com/user/CXwudi/saved/#view=MqFGGX)
+
 ## Caution
 
 1. install every independent thing that can be installed on the motherboard
@@ -14,8 +15,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 5. Make sure to watch out the fan blow direction
    - it usually goes from clean side to the side that has bones that holding the fan engine
    - some fans may have arrows pointing the direction
-6. Lay down the case when building, don't be Linus
-7. IF YOU LOSE A SCREW OR OTHER SMALL METAL OBJECT, DO NOT TURN ON YOU COMPUTER UNTIL YOU FIND IT
+6. IF YOU LOSE A SCREW OR OTHER SMALL METAL OBJECT, DO NOT TURN ON YOU COMPUTER UNTIL YOU FIND IT
 
 ## Phase - before buide
 
@@ -82,7 +82,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - install the child screw on the mother screw 
    - install back the heat spreader
 
-### with PC case
+### installation on PC case
 
 1. Take out the PC case
 2. But put front, left side, right side panels back to the box
@@ -106,31 +106,37 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 11. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
 12. Remove the PSU cover, unpack anti-static protection, and install PSU
     - make sure fans is facing downside so that fans can poll fresh air to PSU
-13. Plug in and do cable post-management
-    - All cable management should be done just-in-time
-    - plug in all cables on the MoBo side
-      - usb 3.0, use 2.0
-      - audios
-      - usb c
-    - AIO Cooler fans
-      - goes to the AIO commander
-    - AIO Cooler pump
-      - thin one goes to AIO pump/CPU fan header
-      - thick one goes to commander header
-    - AIO Cooler commander
-      - usb one goes to usb header in MoBo
-      - thicker one goes to Sata female cable from PSU then Sata female cable goes to PSU
-    - Other fans
-      - goes to the fan hub integrated in the MoBo
-    - Front Panel cables
-      - follow the [video](https://youtu.be/PXaLc9AYIcg?t=2978) or the screenshot below
-    - 24 pin MoBo cable
-    - EPS (CPU) cable (both cable)
+
+### cable management on PC case
+
+Notice: All cable management should be done just-in-time
+
+1. plug in all cables on the MoBo side
+   - usb 3.0, use 2.0
+   - audios
+   - usb c
+2. AIO Cooler fans
+   - goes to the AIO commander
+3. AIO Cooler pump
+   - thin one goes to AIO pump/CPU fan header
+   - thick one goes to commander header
+4. AIO Cooler commander
+   - usb one goes to usb header in MoBo
+   - thicker one goes to Sata female cable from PSU then Sata female cable goes to PSU
+5. Other fans
+   - goes to the fan hub integrated in the MoBo
+6. Front Panel cables
+   - follow the [video](https://youtu.be/PXaLc9AYIcg?t=2978) or the screenshot below
+7. 24 pin MoBo cable
+8. EPS (CPU) cable (both cable)
 ![front panel pins](Screenshot%202021-08-16%20180348.png)
-14.  Install GPU and connect its wires
-    - when connecting the PCIe cables, don't use these pigtails. Instead, use all 3 PCIe cables and leave these pigtails alone
-15.  Install GPU supporter
-16.  Install MoBo WiFi
+
+### final installation
+
+1. Install GPU and connect its wires
+   - when connecting the PCIe cables, don't use these pigtails. Instead, use all 3 PCIe cables and leave these pigtails alone
+2. Install GPU supporter
+3. Install MoBo WiFi
 
 ## Phase - after build
 
