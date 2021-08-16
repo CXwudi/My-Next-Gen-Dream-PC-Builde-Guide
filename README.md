@@ -43,6 +43,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 
 1. Clean the table, get all tools standby
 2. surface book 2 standby, with all tutorial videos opened
+   - specially need [this](https://www.youtube.com/watch?v=PXaLc9AYIcg) video
 3. Recording yourself the introduction used for the vlog
 4. Open Streaming
 
@@ -110,6 +111,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 14. Do cable post-management
     - connect all cables on the PSU
 15. Install GPU and connect its wires
+    - when connecting the PCIe cables, don't use th pigtails. Instead, use all 3 PCIe cables and leave these pigtails alone
 16. Install GPU supporter
 
 ## Phase - after build
