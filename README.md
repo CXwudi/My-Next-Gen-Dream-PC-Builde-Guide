@@ -33,8 +33,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - thermal compound (or liquid metal)
    - cable ties
 4. Setup and test the streaming environment
-   - use Android Tablet
-   - avoid using phone as it draw battery too fast
+   - use phone. it may draw battery too fast, but it is potable.
 5. Design the cable management
    - from PSU to all slots on MoBo, going through which way
    - you might need a paper and pen to do the design (or surface book 2)
