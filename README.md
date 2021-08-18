@@ -43,7 +43,9 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 1. Clean the table, get all tools standby
 2. surface book 2 standby, with all tutorial videos opened
    - specially need [this](https://www.youtube.com/watch?v=PXaLc9AYIcg) video
-3. Recording yourself the introduction used for the vlog
+3. Recording things that needed for the vlog
+   - An introduction in JP (used in intro)
+   - all parts pictures/videos (used in PC parts introduction part)
 4. Open Streaming
 
 ## Phase - during build
@@ -89,7 +91,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 3. Do cable pre-management
    - only for cables from the case, which cable go to where, so that when the MoBo is installed, all cables are standby
 4. Lay down the PC case
-5. Validate and install the IO shield
+5. (Skip if IO shield is integrated with MoBo) Validate and install the IO shield 
    - validate means IO shield fit the Mobo, fit the case, and shield doesn't block any port
 6. Carefully put on the MoBo, and install it
    - 10% - 15% angle goes in
