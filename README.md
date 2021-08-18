@@ -144,7 +144,7 @@ Notice: All cable management should be done just-in-time
 ### MoBo settings
 
 1. Upgrade MoBo driver to support 5950x CPU
-   - by inserting the USB to the MoBo
+   - by this [tutorial](https://www.youtube.com/watch?v=OmxphAtiSl0)
 2. Connect HDMI on GPU, mouse and keyboard
    - not the DisplayPort since NVIDIA driver hasn't installed yet
 3. Boots up, immediately go to BOIS settings
