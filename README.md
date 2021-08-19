@@ -97,7 +97,7 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
    - 10% - 15% angle goes in
    - must be really careful of not letting the PC case scretches the MoBo
 7. Lay up the PC case
-8. (Skip if AIO Cooler comes with a build-in thermal paste && build-in thermal paste is not touched) Add thermal conpound to CPU
+8. (Skip if AIO Cooler comes with a build-in thermal paste && build-in thermal paste is not touched) Add thermal conpound to AIO Cooler or CPU
 9.  Install AIO Cooler
    - must make sure not touching the thermal paste
    - front mount
