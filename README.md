@@ -117,19 +117,16 @@ Notice: All cable management should be done just-in-time
    - audios
    - usb c
 2. AIO Cooler fans
-   - goes to the AIO commander
+   - goes to the pump
 3. AIO Cooler pump
-   - thin one goes to AIO pump/CPU fan header
-   - thick one goes to commander header
-4. AIO Cooler commander
-   - usb one goes to usb header in MoBo
-   - thicker one goes to Sata female cable from PSU then Sata female cable goes to PSU
-5. Other fans
+   - thicker one goes to PSU (need to figure out how)
+   - thin one might be the usb 2.0, but clarify this before plugging it in
+4. Other fans
    - goes to the fan hub integrated in the MoBo
-6. Front Panel cables
+5. Front Panel cables
    - follow the [video](https://youtu.be/PXaLc9AYIcg?t=2978) or the screenshot below
-7. 24 pin MoBo cable
-8. EPS (CPU) cable (both cable)
+6. 24 pin MoBo cable
+7. EPS (CPU) cable (both cable)
 ![front panel pins](Screenshot%202021-08-16%20180348.png)
 
 ### final installation
