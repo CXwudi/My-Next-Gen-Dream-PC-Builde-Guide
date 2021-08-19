@@ -96,13 +96,13 @@ This is the detailed build guide for [my next-gen dream PC build](https://ca.pcp
 6. Carefully put on the MoBo, and install it
    - 10% - 15% angle goes in
    - must be really careful of not letting the PC case scratches the MoBo
-7. Lay up the PC case
-8. (Skip if AIO Cooler comes with a build-in thermal paste && build-in thermal paste is not touched) Add thermal conpound to AIO Cooler or CPU
-9. Install AIO Cooler
+7. (Skip if AIO Cooler comes with a build-in thermal paste && build-in thermal paste is not touched) Add thermal conpound to AIO Cooler or CPU
+8. Install AIO Cooler
    - must make sure not to touch the thermal paste
    - front mount
    - make sure the most top point is not the pump
    - not the cable part yet
+9. Lay up the PC case
 10. Install all fans
 11. Do a little bit of lifting left, lifting right. to make sure bubbles in AIO Coolers goes up
 12. Remove the PSU cover, unpack anti-static protection, and install PSU
